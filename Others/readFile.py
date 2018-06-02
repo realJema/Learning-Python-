@@ -18,6 +18,4 @@ with open('test.txt', 'r') as test:
                 Unique[word] = 1
 
 print('*'*20 + '\nThe Word Frequency\n' + '*'*20)
-import pprint
-pprint.pprint(Unique)
 print(Unique)
